@@ -206,7 +206,7 @@
       "url": "https://packages.unity.com"
     },
     "lta.avatar": {
-      "version": "file:C:/Users/Admin/Unity Projects/LTA Framework/LTABase/Avatar",
+      "version": "file:../LTA Framework/LTABase/Avatar",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -217,7 +217,7 @@
       }
     },
     "lta.basecharacter": {
-      "version": "file:C:/Users/Admin/Unity Projects/LTA Framework/LTABase/Character/Base/BaseCharacter",
+      "version": "file:../LTA Framework/LTABase/Character/Base/BaseCharacter",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -229,7 +229,7 @@
       }
     },
     "lta.baseitem": {
-      "version": "file:C:/Users/Admin/Unity Projects/LTA Framework/LTABase/Items/BaseItems",
+      "version": "file:../LTA Framework/LTABase/Items/BaseItems",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -244,7 +244,7 @@
       }
     },
     "lta.basevo": {
-      "version": "file:C:/Users/Admin/Unity Projects/LTA Framework/LTABase/Base/BaseVO",
+      "version": "file:../LTA Framework/LTABase/Base/BaseVO",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -252,7 +252,7 @@
       }
     },
     "lta.basiccharacter": {
-      "version": "file:C:/Users/Admin/Unity Projects/LTA Framework/LTABase/Character/Common/BasicCharacter",
+      "version": "file:../LTA Framework/LTABase/Character/Common/BasicCharacter",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -265,7 +265,7 @@
       }
     },
     "lta.condition": {
-      "version": "file:C:/Users/Admin/Unity Projects/LTA Framework/LTABase/Condition",
+      "version": "file:../LTA Framework/LTABase/Condition",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -273,39 +273,85 @@
       }
     },
     "lta.designpattern": {
-      "version": "file:C:/Users/Admin/Unity Projects/LTA Framework/LTABase/Base/DesignPattern",
+      "version": "file:../LTA Framework/LTABase/Base/DesignPattern",
       "depth": 0,
       "source": "local",
       "dependencies": {}
     },
+    "lta.effect": {
+      "version": "file:../LTA Framework/LTABase/Effect",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "lta.handsome.base": "1.0.2"
+      }
+    },
+    "lta.fight": {
+      "version": "file:../LTA Framework/LTABase/Fight/Fight",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "lta.basevo": "1.0.0",
+        "lta.designpattern": "1.0.0",
+        "lta.nonentity": "1.0.0",
+        "lta.handsome.base": "1.0.2",
+        "lta.condition": "1.0.1",
+        "lta.jsonsimple": "1.0.0",
+        "lta.filtertarget": "1.0.0",
+        "lta.baseitem": "1.0.1"
+      }
+    },
     "lta.filtertarget": {
-      "version": "file:C:/Users/Admin/Unity Projects/LTA Framework/LTABase/Targets/FilterTarget",
+      "version": "file:../LTA Framework/LTABase/Targets/FilterTarget",
       "depth": 0,
       "source": "local",
       "dependencies": {}
     },
     "lta.handsome.base": {
-      "version": "file:C:/Users/Admin/Unity Projects/LTA Framework/LTABase/Base/Base",
+      "version": "file:../LTA Framework/LTABase/Base/Base",
       "depth": 0,
       "source": "local",
       "dependencies": {
         "lta.designpattern": "1.0.0"
       }
     },
+    "lta.handsome.fightcharater": {
+      "version": "file:../LTA Framework/LTABase/Fight/FightCharacter",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "lta.basevo": "1.0.0",
+        "lta.designpattern": "1.0.0",
+        "lta.nonentity": "1.0.0",
+        "lta.handsome.base": "1.0.2",
+        "lta.fight": "1.0.0",
+        "lta.basecharacter": "1.0.2",
+        "lta.basiccharacter": "1.0.2"
+      }
+    },
+    "lta.joystick": {
+      "version": "file:../LTA Framework/LTABase/GameController/Base/JoyStick",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "lta.handsome.base": "1.0.1",
+        "lta.effect": "1.0.0"
+      }
+    },
     "lta.jsonsimple": {
-      "version": "file:C:/Users/Admin/Unity Projects/LTA Framework/LTABase/Base/JSONSimple",
+      "version": "file:../LTA Framework/LTABase/Base/JSONSimple",
       "depth": 0,
       "source": "local",
       "dependencies": {}
     },
     "lta.move": {
-      "version": "file:C:/Users/Admin/Unity Projects/LTA Framework/LTABase/Entities/Common/Move",
+      "version": "file:../LTA Framework/LTABase/Entities/Common/Move",
       "depth": 0,
       "source": "local",
       "dependencies": {}
     },
     "lta.nonentity": {
-      "version": "file:C:/Users/Admin/Unity Projects/LTA Framework/LTABase/NonEntity",
+      "version": "file:../LTA Framework/LTABase/NonEntity",
       "depth": 0,
       "source": "local",
       "dependencies": {
