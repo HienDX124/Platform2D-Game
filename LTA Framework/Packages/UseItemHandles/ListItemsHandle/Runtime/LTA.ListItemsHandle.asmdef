@@ -1,0 +1,21 @@
+{
+    "name": "LTA.ListItemsHandle",
+    "rootNamespace": "",
+    "references": [
+        "LTA.BaseItems",
+        "LTA.NonEntity",
+        "LTA.DesignPattern",
+        "LTA.BaseVO",
+        "LTA.Base",
+        "LTA.Condition"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

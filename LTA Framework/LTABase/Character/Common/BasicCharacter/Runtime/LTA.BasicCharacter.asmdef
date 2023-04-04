@@ -1,0 +1,21 @@
+{
+    "name": "LTA.BasicCharacter",
+    "rootNamespace": "",
+    "references": [
+        "LTA.NonEntity",
+        "LTA.DesignPattern",
+        "LTA.BaseVO",
+        "LTA.BaseCharacter",
+        "LTA.Move",
+        "LTA.Base"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

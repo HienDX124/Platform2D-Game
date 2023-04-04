@@ -1,0 +1,25 @@
+{
+    "name": "LTA.NPC",
+    "rootNamespace": "",
+    "references": [
+        "LTA.NonEntity",
+        "LTA.BaseVO",
+        "LTA.DesignPattern",
+        "LTA.AutoTarget",
+        "LTA.ItemCharacter",
+        "LTA.BaseCharacter",
+        "LTA.BaseItems",
+        "LTA.FilterTarget",
+        "LTA.Base",
+        "LTA.Condition"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

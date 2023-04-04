@@ -1,0 +1,14 @@
+{
+    "name": "lta.basiccharacter",
+    "displayName": "LTA Basic Character",
+    "version": "1.0.2",
+    "description": "LTA Basic Character",
+    "dependencies": {
+        "lta.basecharacter": "1.0.1",
+        "lta.handsome.base": "1.0.1",
+        "lta.move": "1.0.0",
+        "lta.basevo": "1.0.0",
+        "lta.designpattern": "1.0.0",
+        "lta.nonentity": "1.0.2"
+    }
+}

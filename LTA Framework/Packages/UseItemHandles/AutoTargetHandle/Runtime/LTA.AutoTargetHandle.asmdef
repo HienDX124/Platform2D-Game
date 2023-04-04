@@ -1,0 +1,17 @@
+{
+    "name": "LTA.AutoTargetHandle",
+    "rootNamespace": "",
+    "references": [
+        "GUID:231a139b86d6fdb45bcdb21e6119a994",
+        "GUID:8e0676fe2909e0f4fb1e5734c5a1d55c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

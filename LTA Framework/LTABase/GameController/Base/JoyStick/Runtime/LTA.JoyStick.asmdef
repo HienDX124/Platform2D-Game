@@ -1,0 +1,17 @@
+{
+    "name": "LTA.JoyStick",
+    "rootNamespace": "",
+    "references": [
+        "LTA.Base",
+        "LTA.Effect"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

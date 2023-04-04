@@ -1,0 +1,18 @@
+{
+    "name": "LTA.ItemCharacterHandle",
+    "rootNamespace": "",
+    "references": [
+        "LTA.BaseItems",
+        "LTA.BaseCharacter",
+        "LTA.BaseVO"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

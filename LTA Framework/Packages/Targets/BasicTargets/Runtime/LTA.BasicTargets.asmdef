@@ -1,0 +1,19 @@
+{
+    "name": "LTA.BasicTargets",
+    "rootNamespace": "",
+    "references": [
+        "LTA.Base",
+        "LTA.FilterTarget",
+        "LTA.Type",
+        "LTA.NonEntity"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

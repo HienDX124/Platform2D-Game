@@ -1,0 +1,21 @@
+{
+    "name": "LTA.Information",
+    "rootNamespace": "",
+    "references": [
+        "LTA.Base",
+        "LTA.DesignPattern",
+        "LTA.BaseVO",
+        "LTA.NonEntity",
+        "Unity.TextMeshPro",
+        "LTA.BaseItems"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

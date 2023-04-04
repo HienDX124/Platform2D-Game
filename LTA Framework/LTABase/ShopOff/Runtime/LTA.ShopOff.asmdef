@@ -1,0 +1,22 @@
+{
+    "name": "LTA.ShopOff",
+    "rootNamespace": "",
+    "references": [
+        "Unity.TextMeshPro",
+        "LTA.Information",
+        "LTA.BaseItems",
+        "LTA.UI",
+        "LTA.DesignPattern",
+        "LTA.Avatar",
+        "LTA.Effect"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

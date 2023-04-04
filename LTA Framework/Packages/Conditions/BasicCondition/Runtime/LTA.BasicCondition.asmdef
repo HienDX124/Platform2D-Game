@@ -1,0 +1,17 @@
+{
+    "name": "LTA.BasicCondition",
+    "rootNamespace": "",
+    "references": [
+        "LTA.Condition",
+        "LTA.AutoDestroy"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

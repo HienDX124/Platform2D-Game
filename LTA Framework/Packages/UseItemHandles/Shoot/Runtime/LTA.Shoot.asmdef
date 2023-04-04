@@ -1,0 +1,23 @@
+{
+    "name": "LTA.Shoot",
+    "rootNamespace": "",
+    "references": [
+        "LTA.Fight",
+        "LTA.BaseItems",
+        "LTA.FilterTarget",
+        "LTA.Base",
+        "LTA.Condition",
+        "LTA.DesignPattern",
+        "LTA.BaseVO",
+        "LTA.Move"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
