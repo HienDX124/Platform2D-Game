@@ -206,7 +206,7 @@
       "url": "https://packages.unity.com"
     },
     "lta.avatar": {
-      "version": "file:../LTA Framework/LTABase/Avatar",
+      "version": "file:../../LTA Framework/LTABase/Avatar",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -217,7 +217,7 @@
       }
     },
     "lta.basecharacter": {
-      "version": "file:../LTA Framework/LTABase/Character/Base/BaseCharacter",
+      "version": "file:../../LTA Framework/LTABase/Character/Base/BaseCharacter",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -229,7 +229,7 @@
       }
     },
     "lta.baseitem": {
-      "version": "file:../LTA Framework/LTABase/Items/BaseItems",
+      "version": "file:../../LTA Framework/LTABase/Items/BaseItems",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -244,7 +244,7 @@
       }
     },
     "lta.basevo": {
-      "version": "file:../LTA Framework/LTABase/Base/BaseVO",
+      "version": "file:../../LTA Framework/LTABase/Base/BaseVO",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -252,7 +252,7 @@
       }
     },
     "lta.basiccharacter": {
-      "version": "file:../LTA Framework/LTABase/Character/Common/BasicCharacter",
+      "version": "file:../../LTA Framework/LTABase/Character/Common/BasicCharacter",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -265,7 +265,7 @@
       }
     },
     "lta.condition": {
-      "version": "file:../LTA Framework/LTABase/Condition",
+      "version": "file:../../LTA Framework/LTABase/Condition",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -273,13 +273,13 @@
       }
     },
     "lta.designpattern": {
-      "version": "file:../LTA Framework/LTABase/Base/DesignPattern",
+      "version": "file:../../LTA Framework/LTABase/Base/DesignPattern",
       "depth": 0,
       "source": "local",
       "dependencies": {}
     },
     "lta.effect": {
-      "version": "file:../LTA Framework/LTABase/Effect",
+      "version": "file:../../LTA Framework/LTABase/Effect",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -287,7 +287,7 @@
       }
     },
     "lta.fight": {
-      "version": "file:../LTA Framework/LTABase/Fight/Fight",
+      "version": "file:../../LTA Framework/LTABase/Fight/Fight",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -302,13 +302,13 @@
       }
     },
     "lta.filtertarget": {
-      "version": "file:../LTA Framework/LTABase/Targets/FilterTarget",
+      "version": "file:../../LTA Framework/LTABase/Targets/FilterTarget",
       "depth": 0,
       "source": "local",
       "dependencies": {}
     },
     "lta.handsome.base": {
-      "version": "file:../LTA Framework/LTABase/Base/Base",
+      "version": "file:../../LTA Framework/LTABase/Base/Base",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -316,7 +316,7 @@
       }
     },
     "lta.handsome.fightcharater": {
-      "version": "file:../LTA Framework/LTABase/Fight/FightCharacter",
+      "version": "file:../../LTA Framework/LTABase/Fight/FightCharacter",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -330,7 +330,7 @@
       }
     },
     "lta.joystick": {
-      "version": "file:../LTA Framework/LTABase/GameController/Base/JoyStick",
+      "version": "file:../../LTA Framework/LTABase/GameController/Base/JoyStick",
       "depth": 0,
       "source": "local",
       "dependencies": {
@@ -339,19 +339,19 @@
       }
     },
     "lta.jsonsimple": {
-      "version": "file:../LTA Framework/LTABase/Base/JSONSimple",
+      "version": "file:../../LTA Framework/LTABase/Base/JSONSimple",
       "depth": 0,
       "source": "local",
       "dependencies": {}
     },
     "lta.move": {
-      "version": "file:../LTA Framework/LTABase/Entities/Common/Move",
+      "version": "file:../../LTA Framework/LTABase/Entities/Common/Move",
       "depth": 0,
       "source": "local",
       "dependencies": {}
     },
     "lta.nonentity": {
-      "version": "file:../LTA Framework/LTABase/NonEntity",
+      "version": "file:../../LTA Framework/LTABase/NonEntity",
       "depth": 0,
       "source": "local",
       "dependencies": {
