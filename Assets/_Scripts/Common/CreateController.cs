@@ -1,21 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using LTA.DesignPattern;
+using Unity.Mathematics;
 using UnityEngine;
 
 // cái này dùng để tạo all prefab trong game (singleton)
 public class CreateController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private BulletController bulletPref;
+    
+    public BulletController CreateBulletPref(Transform tranShoot)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        BulletController bullet = Instantiate(bulletPref, tranShoot.position, tranShoot.rotation);
+        return bullet;
     }
 }
 
