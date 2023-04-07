@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private PlayerMoveController moveController;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        if (Input.GetKey(KeyCode.D))
+        {
+            moveController.Move(Vector3.right);
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            moveController.Move(Vector3.left);
+        }
     }
 }
