@@ -29,5 +29,4 @@ public class PlayerMoveController : Character2DPlatformMoveController
         if (direction.x > 0)
             transform.eulerAngles = new Vector3(0, 0, 0);
     }
-
 }

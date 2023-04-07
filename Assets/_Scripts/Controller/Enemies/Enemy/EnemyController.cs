@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private EnemyMoveController moveController;
+    [SerializeField] private Vector3[] movePath;
+
+    private void Start()
     {
-        
+        StartMove(movePath);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void StartMove(Vector3[] path)
     {
-        
+        moveController.SetUpMovePath(path);
+    }
+
+    public void StopMove()
+    {
+        moveController.StopMove();
     }
 }
