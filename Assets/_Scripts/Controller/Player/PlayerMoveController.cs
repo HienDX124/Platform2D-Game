@@ -10,24 +10,24 @@ public class PlayerMoveController : Character2DPlatformMoveController
     private Vector3 cachedVector3;
 
 
-    public void Move(Vector3 direction)
+    public void Move(Vector3 dir)
     {
-        SetState(BasicState.Move);
-        UpdateState(direction);
+        this.Direction = dir;
     }
 
     public void StopMove()
     {
-        SetState(BasicState.Idle);
+        this.Direction = Vector3.zero;
     }
 
-    // public override void Move(Vector3 direction)
-    // {
-    //     cachedVector3.Set((direction.x > 0) ? Mathf.Abs(rendererTransform.localScale.x) : -Mathf.Abs(rendererTransform.localScale.x), rendererTransform.localScale.y, rendererTransform.localScale.z);
-    //     rendererTransform.localScale = cachedVector3;
+    protected override void UpdateState(Vector3 direction)
+    {
+        base.UpdateState(direction);
 
-    //     transform.position += direction.normalized * speed * Time.deltaTime;
-    // }
-
+        if (direction.x < 0)
+            transform.eulerAngles = new Vector3(0, 180, 0);
+        if (direction.x > 0)
+            transform.eulerAngles = new Vector3(0, 0, 0);
+    }
 
 }

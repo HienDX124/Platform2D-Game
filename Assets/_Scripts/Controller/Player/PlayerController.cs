@@ -16,5 +16,10 @@ public class PlayerController : MonoBehaviour
         {
             moveController.Move(Vector3.left);
         }
+
+        if (Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.A))
+        {
+            moveController.StopMove();
+        }
     }
 }
