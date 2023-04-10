@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private PlayerMoveController moveController;
+    [SerializeField] private CharacterJumpController jumpController;
 
     private void Update()
     {
@@ -20,6 +21,11 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.A))
         {
             moveController.StopMove();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            jumpController.Jump();
         }
     }
 }

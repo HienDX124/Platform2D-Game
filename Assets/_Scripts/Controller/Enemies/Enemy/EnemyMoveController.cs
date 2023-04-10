@@ -49,6 +49,7 @@ public class EnemyMoveController : Character2DPlatformMoveController
         }
 
         nextTarget = currentPath[currentPathNodeIndex];
+        UpdateState(nextTarget);
     }
 
     private void ReversePath()

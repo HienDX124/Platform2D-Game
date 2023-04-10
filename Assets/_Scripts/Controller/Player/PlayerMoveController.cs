@@ -6,9 +6,8 @@ using UnityEngine;
 
 public class PlayerMoveController : Character2DPlatformMoveController
 {
-    // [SerializeField] private Transform rendererTransform;
-    private Vector3 cachedVector3;
 
+    private Vector3 cachedVector3;
 
     public void Move(Vector3 dir)
     {
