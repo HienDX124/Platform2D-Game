@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : ShootingController
 {
     [SerializeField] private PlayerMoveController moveController;
     [SerializeField] private Transform tranShoot;
@@ -23,13 +23,10 @@ public class PlayerController : MonoBehaviour
         
         if (Input.GetKey(KeyCode.Space) && count > 300)
         {
-            Shooting();
+            Shooting(tranShoot);
             count = 0;
         }
     }
 
-    protected void Shooting()
-    {
-        Creator.Instance.CreateBulletPref(tranShoot);
-    }
+   
 }
