@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,12 +12,17 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform tranShoot;
     [SerializeField] private JoyStickContoller joystick;
     [SerializeField] private ShootingController shootingController;
+    [SerializeField] private ButtonController buttonController;
 
-    private int count = 0;
     private Vector3 direction;
+
+    private void Start()
+    {
+        buttonController.doSomething = Shooting;
+    }
+
     private void Update()
     {
-        count++;
         direction = new Vector3(joystick.Direction.x, 0);
         moveController.Move(direction);
 
@@ -25,17 +31,14 @@ public class PlayerController : MonoBehaviour
             moveController.StopMove();
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (joystick.Direction.y > 0.7f)
         {
             jumpController.Jump();
-
-            if (Input.GetKey(KeyCode.Space) && count > 300)
-            {
-                shootingController.Shooting(tranShoot);
-                count = 0;
-            }
         }
+    }
 
-
+    private void Shooting()
+    {
+        shootingController.Shooting(tranShoot);
     }
 }
